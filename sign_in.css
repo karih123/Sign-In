@@ -1,0 +1,95 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+
+}
+body{
+	margin:0;
+	padding: 0px;
+	width: 90%;
+	height: 100vh;
+	background:url(BG.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	display: table;
+
+}
+a{
+	color:white;
+	text-decoration: none;
+	font-family: Monospace;
+	font-weight: lighter;
+	width: 10px;
+	
+
+}
+
+.signin{
+	border:1px solid rgba(255 ,255 ,255, 0.3);
+	border-radius: 5px;
+	margin-left:1px;
+	margin-right:1px;
+	padding:40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translateX(-50%) translateY(-50%);
+}
+
+h2{
+	margin-top: 0px;
+	font-family: Monospace;
+	font-weight: lighter;
+	color: #fff;
+	font-size:50px;
+	text-align:center;
+}
+
+input{
+	display: block;
+	width: 320px;
+	height: 50px;
+	background: rgba(179, 6, 6, 0.445);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.5);
+	font-family: : Monospace;
+	font-weight: lighter;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	text-align:center;
+}
+
+button{
+	width: 332px;
+	height: 50px;
+	font-size: 16px;
+	background:rgba(109, 106, 106, 0.658);
+	font-weight: lighter;
+	color: #fff;
+	border: 0px;
+	border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 800px){
+
+        input[type="text"] {
+            font-size: 20px ;
+            width: 250px ;
+            height: 40px ;
+        }
+
+        button.btn {
+            width: 260px;
+            height: 40px;
+            font-size: 20px;
+        }
+}
+
+    
+    
+
+
